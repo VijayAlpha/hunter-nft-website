@@ -37,3 +37,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.collection-box-1::-webkit-scrollbar {
+  display: none;
+}
+
+.collection-box-2::-webkit-scrollbar {
+  display: none;
+}
