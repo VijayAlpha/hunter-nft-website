@@ -5,5 +5,6 @@ import Collections from "./Collections";
 import Team from "./Team";
 import FAQ from "./FAQ";
 import Footer from "./Footer";
+import Roadmap from "./Roadmap";
 
-export { Hero, Nav , About , Collections , Team , FAQ , Footer};
+export { Hero, Nav , About , Collections , Roadmap , Team , FAQ , Footer};
