@@ -16,6 +16,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: #03000a;
@@ -25,5 +29,11 @@ body {
   background-image: url("/asserts/images/hero-bg.png");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-about {
+  background-image: url("/asserts/images/about-bg.png");
+  background-size: cover;
   background-repeat: no-repeat;
 }
