@@ -44,6 +44,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.section-footer {
+  background-image: url("/asserts/images/footer-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+
 .collection-box-1::-webkit-scrollbar {
   display: none;
 }
