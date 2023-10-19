@@ -78,7 +78,7 @@ const Collections = () => {
 
       <div className="more-box w-full p-20 flex flex-col items-center justify-evenly">
         <img src="/asserts/images/more.svg" alt="" />
-        <div className="mt-28 mb-20 flex justify-around w-full">
+        <div className="mt-28 mb-20 flex flex-col md:flex-row justify-around w-full gap-6">
           <img src="/asserts/images/more-1.svg" alt="" />
           <img src="/asserts/images/more-2.svg" alt="" />
           <img src="/asserts/images/more-3.svg" alt="" />

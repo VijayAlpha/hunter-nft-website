@@ -3,14 +3,14 @@ import React from "react";
 const Team = () => {
   return (
     <section className="section-team w-full py-24 p-8 flex flex-col items-center">
-      <div className="flex flex-col items-center w-1/2">
+      <div className="flex flex-col items-center lg:w-1/2">
         <h2 className="text-4xl">Our Team</h2>
         <p className="text-lg p-5 text-center">
           Meet the Creators of the Haunted Plague NFT <br /> Collection: A
           Fusion of Artistry and Spookiness
         </p>
       </div>
-      <div className="pt-10 flex gap-16">
+      <div className="pt-10 flex flex-col md:flex-row gap-16">
         <a href="#">
           <img src="/asserts/images/team-1.svg" alt="" />
         </a>

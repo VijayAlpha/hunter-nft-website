@@ -3,7 +3,7 @@ const About = () => {
     <section
       className="section-about min-h-screen w-full flex flex-col justify-center items-center relative p-8"
       id="about">
-      <div className="w-1/3 rounded-xl bg-[#0B0021] opacity-90 flex flex-col items-center gap-10 p-10 text-center absolute">
+      <div className="lg:w-1/3 rounded-xl bg-[#0B0021] opacity-90 flex flex-col items-center gap-10 p-10 text-center absolute">
         <h2 className="text-4xl">Story</h2>
         <img src="/asserts/images/nft-1.svg" />
 
@@ -18,11 +18,11 @@ const About = () => {
       </div>
       <img
         src="/asserts/images/stone-1.svg"
-        className="absolute left-0	bottom-0 w-64 ml-6"
+        className="w-32 lg:w-64 absolute left-0	bottom-0  ml-6"
       />
       <img
         src="/asserts/images/stone-2.svg"
-        className="absolute right-0	bottom-0 w-64 mr-6"
+        className="w-32 lg:w-64 absolute right-0	bottom-0 mr-6"
       />
     </section>
   );

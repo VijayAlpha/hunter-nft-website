@@ -1,7 +1,7 @@
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className="hidden md:block">
       <ul className="flex gap-3 m-4">
         <li>
           <a href="#home">
