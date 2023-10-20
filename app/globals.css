@@ -23,6 +23,7 @@ html {
 body {
   color: rgb(var(--foreground-rgb));
   background: #03000a;
+  color: #fff;
 }
 
 .section-hero {

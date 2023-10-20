@@ -3,8 +3,8 @@ const About = () => {
     <section
       className="section-about min-h-screen w-full flex flex-col justify-center items-center relative p-8"
       id="about">
-      <div className="lg:w-1/3 rounded-xl bg-[#0B0021] opacity-90 flex flex-col items-center gap-10 p-10 text-center absolute">
-        <h2 className="text-4xl">Story</h2>
+      <div className="max-w-xl rounded-xl bg-[#0B0021] opacity-90 flex flex-col items-center gap-10 p-10 text-center absolute">
+        <img src="/asserts/images/story.svg"/>
         <img src="/asserts/images/nft-1.svg" />
 
         <p>A Haunted Plague NFT Collection: Unearth the Tales of Desolation</p>
