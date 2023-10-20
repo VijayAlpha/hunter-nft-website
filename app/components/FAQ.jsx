@@ -18,8 +18,8 @@ function FAQItem({ num, question, answer }) {
         alt=""
       />
       <div className="w-full">
-        <h3 className="text-3xl mb-5">{question}</h3>
-        {isAnswerVisible && <p>{answer}</p>}
+        <h3 className="text-3xl my-5">{question}</h3>
+        {isAnswerVisible && <p className="mb-12">{answer}</p>}
       </div>
       <div className="hidden md:block">
         {isAnswerVisible ? (
