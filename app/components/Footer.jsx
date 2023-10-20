@@ -7,23 +7,26 @@ const Footer = () => {
           <img
             src="/asserts/images/hero-logo.svg"
             alt="Haunted Plague"
-            className="w-1/2"
+            className="w-56"
           />
-          <div className="text-center [&>*]:m-10 ">
+          <div className="text-center [&>*]:m-6 md:[&>*]:m-10 ">
             <p className="text-center text-lg max-w-md">
               Embrace the darkness, own the mystery. Haunted Plague NFTs – where
               legends become tokens
             </p>
             <div className="flex gap-4 justify-center">
-              <img
+              <a href="https://twitter.com/hauntedplague"> <img
                 src="/asserts/images/icon-x.svg"
                 alt=""
-                className="cursor-pointer"
-              />
-              <img
+                className="cursor-pointer w-8"
+              /></a>
+             <a href="https://discord.com/invite/JUcKQGGh84">
+               <img
                 src="/asserts/images/icon-discord.svg"
-                className="cursor-pointer"
+                className="cursor-pointer w-8"
               />
+             </a>
+             
             </div>
             <p className="text-center">
               © 2023 Haunted Plague, All Rights Reserved

@@ -3,7 +3,7 @@ const About = () => {
     <section
       className="section-about min-h-screen w-full flex flex-col justify-center items-center relative p-8"
       id="about">
-      <div className="max-w-xl max-h-[90vh] my-10 rounded-xl bg-[#0B0021] opacity-90 flex flex-col items-center gap-10 p-10 text-center absolute overflow-y-auto">
+      <div className="about-story max-w-xl max-h-[90vh] my-10 mx-4 rounded-xl bg-[#0B0021] opacity-90 flex flex-col items-center gap-10 p-10 text-center absolute overflow-y-scroll">
         <img src="/asserts/images/name-story.svg" />
         <img src="/asserts/images/nft-1.svg" />
 

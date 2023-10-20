@@ -1,6 +1,6 @@
 const Collections = () => {
   return (
-    <section className="section-collection bg-[#0E080A] flex flex-col items-center">
+    <section className="section-collection bg-[#0E080A] flex flex-col items-center" id="collections">
       <div className="max-w-lg text-center my-10 mt-20 flex flex-col items-center">
         <img src="/asserts/images/Collections.svg" alt="collection" className=""/>
         <p className="text-lg p-5"> 
