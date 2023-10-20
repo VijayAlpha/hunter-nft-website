@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="flex-1 flex flex-col justify-around items-center p-5 max-w-lg">
         <img src="/asserts/images/hero-logo.svg" alt="Haunted Plague" />
         <div className="text-center flex flex-col items-center">
-          <img src="/asserts/images/season-01.svg" className="mb-8 lg:mb-2"/>
+          <img src="/asserts/images/name-season.svg" className="mb-8 lg:mb-2"/>
           <p className="text-center lg:text-lg">
             The Haunted Plague NFT Collection is a spine-tingling digital art
             series featuring 888 unique, eerie, and hauntingly beautiful NFTs.

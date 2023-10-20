@@ -4,7 +4,7 @@ const About = () => {
       className="section-about min-h-screen w-full flex flex-col justify-center items-center relative p-8"
       id="about">
       <div className="max-w-xl rounded-xl bg-[#0B0021] opacity-90 flex flex-col items-center gap-10 p-10 text-center absolute">
-        <img src="/asserts/images/story.svg"/>
+        <img src="/asserts/images/name-story.svg"/>
         <img src="/asserts/images/nft-1.svg" />
 
         <p>A Haunted Plague NFT Collection: Unearth the Tales of Desolation</p>
