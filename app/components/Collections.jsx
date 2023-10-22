@@ -1,9 +1,9 @@
 const Collections = () => {
   return (
-    <section className="section-collection bg-[#0E080A] flex flex-col items-center">
-      <div className=" w-1/2 text-center my-10 mt-20">
-        <h2 className="text-4xl">Collections</h2>
-        <p className="text-lg p-5">
+    <section className="section-collection bg-[#0E080A] flex flex-col items-center" id="collections">
+      <div className="max-w-lg text-center my-10 mt-20 flex flex-col items-center">
+        <img src="/asserts/images/Collections.svg" alt="collection" className=""/>
+        <p className="text-lg p-5"> 
           Own the darkness, embrace the mystery, and become a custodian of
           ghostly history with the Haunted Plague NFT Collection.
         </p>
