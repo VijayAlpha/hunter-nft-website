@@ -35,7 +35,7 @@ function FAQItem({ num, question, answer }) {
 const FAQ = () => {
   return (
     <section className="container  flex flex-col items-center p-10" id="faq">
-      <img src="/asserts/images/faq-name.svg" alt="" />
+      <img src="/asserts/images/FAQ-name.svg" alt="" />
       <div className="max-w-6xl my-12  divide-y-2 divide-gray-600 w-full">
         <FAQItem
           num="1"
