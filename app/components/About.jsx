@@ -44,14 +44,18 @@ const About = () => {
           collection like no other'
         </p>
       </div>
-      <img
-        src="/asserts/images/stone-1.svg"
-        className="hidden md:block w-32 lg:w-64 absolute left-0 bottom-0  ml-6"
-      />
-      <img
-        src="/asserts/images/stone-2.svg"
-        className="hidden md:block w-32 lg:w-64 absolute right-0	bottom-0 mr-6"
-      />
+      <a href="https://discord.com/invite/JUcKQGGh84">
+        <img
+          src="/asserts/images/stone-1.svg"
+          className="hidden md:block w-32 lg:w-64 absolute left-0 bottom-0  ml-6"
+        />
+      </a>
+      <a href="https://twitter.com/hauntedplague">
+        <img
+          src="/asserts/images/stone-2.svg"
+          className="hidden md:block w-32 lg:w-64 absolute right-0	bottom-0 mr-6"
+        />
+      </a>
     </section>
   );
 };
