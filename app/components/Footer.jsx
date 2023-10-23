@@ -1,7 +1,10 @@
 const Footer = () => {
   return (
     <>
-      <img src="/asserts/images/name-contact.svg" alt="" />
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsHmy02Dsfdyh-F3Ant21faaOwp8CQsfGxYp8fBdwnI0HAFg/viewform">
+        {" "}
+        <img src="/asserts/images/name-contact.svg" alt="" />
+      </a>
       <footer className="section-footer flex flex-col items-center w-full relative min-h-screen">
         <div className="flex-1 flex flex-col justify-around items-center absolute bottom-0">
           <img
