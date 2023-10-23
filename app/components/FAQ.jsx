@@ -39,8 +39,8 @@ const FAQ = () => {
       <div className="max-w-6xl my-12  divide-y-2 divide-gray-600 w-full">
         <FAQItem
           num="1"
-          question="What is the Haunted Plague NFT project?"
-          answer="Haunted Plague NFT project is a unique collection of digital assets represented as Non-Fungible Tokens (NFTs). Each NFT in this collection is inspired by haunted and plague-themed art and lore, creating a captivating and eerie virtual world for collectors."
+          question="What is the Haunted Plague NFT collection?"
+          answer="Haunted Plague NFT collection is a unique collection of digital assets represented as Non-Fungible Tokens (NFTs). Each NFT in this collection is inspired by haunted and plague-themed art and lore, creating a captivating and eerie virtual world for collectors."
         />
         <FAQItem
           num="2"
